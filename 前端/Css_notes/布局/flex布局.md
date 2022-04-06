@@ -6,7 +6,7 @@
 
   > 当元素表现为flex框时，它们沿着两个轴来布局：
 
-  ![image-20220323145752593](E:\study_notes\前端\Css_notes\布局\Untitled.assets\image-20220323145752593.png)
+  ![image-20220323145752593](F:\study_notes\前端\Css_notes\布局\Untitled.assets\image-20220323145752593.png)
 
   - **主轴(main axis)** 是沿着flex元素放置的方向延伸的轴（比如页面上的横向的行、纵向的列）。该轴的开始和结束被称为 **main start** 和 **main end**。
   - **交叉轴（cross axis）** 是垂直于flex元素放置方向的轴。该轴的开始和结束被称为**cross start** 和 **cross end**。

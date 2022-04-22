@@ -1,0 +1,49 @@
+// 固定容器
+.container {
+  .container-fixed();
+
+  @media (min-width: @screen-sm-min) {
+    width: @container-sm;
+  }
+  @media (min-width: @screen-md-min) {
+    width: @container-md;
+  }
+  @media (min-width: @screen-lg-min) {
+    width: @container-lg;
+  }
+}
+
+// 流体容器
+.container-fluid {
+  .container-fixed();
+}
+
+// 行
+.row {
+  .make-row();
+}
+
+.row-no-gutters {
+  margin-right: 0;
+  margin-left: 0;
+
+  [class*="col-"] {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+
+
+// 列
+.make-grid-columns();
+// 移动优先
+.make-grid(xs);
+@media (min-width: @screen-sm-min) {
+  .make-grid(sm);
+}
+@media (min-width: @screen-md-min) {
+  .make-grid(md);
+}
+@media (min-width: @screen-lg-min) {
+  .make-grid(lg);
+}

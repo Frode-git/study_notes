@@ -1,0 +1,59 @@
+/*
+    .col-xs-1,.col-xs-2,.col-xs-3,...,.col-xs-12 {
+      float: left;
+  */
+/*
+  .col-xs-12 {
+    width: 12/12; 即100%
+  }
+  .col-xs-11 {
+    width: 11/12;
+  }
+  ...
+  .col-xs-1 {
+    width: 1/12;
+  }
+*/
+/*
+push
+  .col-xs-push-12 {
+    left: 12/12; 即100%
+  }
+  .col-xs-push-11 {
+    left: 11/12;
+  }
+  ...
+  .col-xs-push-1 {
+    left: 1/12;
+  }
+  .col-xs-push-0 {
+    left: auto;
+  }
+
+pull
+  .col-xs-pull-12 {
+    right: 12/12; 即100%
+  }
+  .col-xs-pull-11 {
+    right: 11/12;
+  }
+  ...
+  .col-xs-pull-1 {
+    right: 1/12;
+  }
+  .col-xs-pull-0 {
+    right: auto;
+  }
+*/
+/*
+  .col-xs-offset-12 {
+    margin-left: 12/12;
+  }
+  .col-xs-offset-11 {
+    margin-left: 11/12;
+  }
+  ...
+  .col-xs-offset-0 {
+    margin-left: 0/12;
+  }
+*/

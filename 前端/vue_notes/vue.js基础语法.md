@@ -10,3 +10,10 @@
 </li>
 ```
 
+
+
+
+
+## 给vue实例（组件实例）绑定新属性
+
+通过`Vue.set(key, value)` 或 `this.$set(key, value)`，不能直接通过`this.key = value`，这样的数据不是响应式的

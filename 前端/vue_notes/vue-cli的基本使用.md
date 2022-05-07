@@ -24,7 +24,7 @@
 
 2. 接下来需要选择vue版本号，按下回车，vue开始编译创建项目至指定路径。
 3. 创建完毕后，根据提示，启动项目即可。
-                                                            ![image-20220503113506908](F:\study_notes\前端\vue_notes\image-20220503113506908.png) 
+                                                            ![image-20220503113506908](F:\study_notes\前端\vue_notes\vue-cli的基本使用.assets\image-20220503113506908.png) 
 
 
 
